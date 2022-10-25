@@ -11,9 +11,8 @@ The purpose of this project is to use the concept of Policy Gradient which is un
 
 ![](https://github.com/harrisloi/Cartpole-Policy-Gradient-PyTorch/blob/main/Images/Trained%20Cartpole.gif)
 
-Libraries used in this experiment
-1. Gym
-2. Numpy
+
+
 3. Matplotlib
 4. Torch
 5. Pandas
@@ -23,6 +22,11 @@ Libraries used in this experiment
 9. io
 10. time
 11. base64
+
+| Libraries used in this experiment  |
+| ------------- |
+| 1. Gym | 
+| 2. Numpy |
 
 ![Hyperparameters for the policy gradient approach](https://github.com/harrisloi/Cartpole-Policy-Gradient-PyTorch/blob/main/Images/Hyperparameters.png) 
 
