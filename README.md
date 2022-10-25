@@ -24,6 +24,8 @@ Libraries used in this experiment
 10. time
 11. base64
 
-![Hyperparameters for the policy gradient approach](https://github.com/harrisloi/Cartpole-Policy-Gradient-PyTorch/blob/main/Images/Hyperparameters.png) We have a total of 5000 episodes to run in the training, max_t is the iteration of sampling the action from the current policy, gamma is the discount factor set to 0.95, and print_every variable simply means printing the result every 100 steps. Lastly, the learning_rate is set to 1e-2, which is 0.01 in this case.
+![Hyperparameters for the policy gradient approach](https://github.com/harrisloi/Cartpole-Policy-Gradient-PyTorch/blob/main/Images/Hyperparameters.png) 
+
+We have a total of 5000 episodes to run in the training, max_t is the iteration of sampling the action from the current policy, gamma is the discount factor set to 0.95, and print_every variable simply means printing the result every 100 steps. Lastly, the learning_rate is set to 1e-2, which is 0.01 in this case.
 
 
