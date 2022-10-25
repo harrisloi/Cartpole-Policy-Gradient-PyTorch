@@ -31,4 +31,15 @@ The purpose of this project is to use the concept of Policy Gradient which is un
 
 We have a total of 5000 episodes to run in the training, max_t is the iteration of sampling the action from the current policy, gamma is the discount factor set to 0.95, and print_every variable simply means printing the result every 100 steps. Lastly, the learning_rate is set to 1e-2, which is 0.01 in this case.
 
+## Results
+
+![](https://github.com/harrisloi/Cartpole-Policy-Gradient-PyTorch/blob/main/Images/Cartpole%20Result%20with%20Adam%20Optimiser.png) 
+
+
+We used Adam Optimization Algorithm for the policy gradient approach, this optimiser allowed us to be more able to get the maximum average reward, which is 190 for the Cartpole environment, to keep the pole vertical and horizontal without falling over. 
+
+![](https://github.com/harrisloi/Cartpole-Policy-Gradient-PyTorch/blob/main/Images/Result.png) 
+
+
+The maximum number of episodes was set to 5000, but the training process was terminated at set 3945 with an average reward of 195.03
 
